@@ -1,0 +1,115 @@
+.header {
+    text-align: center;
+}
+
+.weather {
+    text-align: center;
+    .content {
+        .kota {
+            display: flex;
+            justify-content: center;
+            img {
+                margin-right: 6px;
+            }
+        }
+    }
+}
+
+.city {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #171717;
+    button {
+        border: 1px solid #FFFFFF25;
+        margin: 6px;
+        background: none;
+        padding: 12px;
+        color: white;
+        border-radius: 100px;
+        display: flex;
+        align-items: center;
+        img {
+            width: 16px;
+            margin-right: 3px;
+        }
+    }
+}
+
+.astro {
+    .content {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 20px;
+        background-color: #171717;
+        button {
+            border: 1px solid #FFFFFF25;
+            margin: 6px;
+            background: none;
+            padding: 12px;
+            border-radius: 100px;
+            display: flex;
+            align-items: center;
+            img {
+                width: 16px;
+                margin-right: 3px;
+            }
+        }
+    }
+}
+
+.hour {
+    display: flex;
+    overflow-x: scroll;
+    white-space: nowrap;
+    .content {
+        width: 300px;
+        padding: 16px;
+        border: 1px solid #FFFFFF25;
+        border-radius: 16px;
+        margin: 6px;
+        text-align: center;
+    }
+}
+
+.white {
+    color: #FFFFFF;
+}
+
+.semi-white {
+    color: #FFFFFF85;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #FFFFFF25;
+}
+
+nav {
+    position: fixed;
+    bottom: 12px;
+    right: 12px;
+    display: flex;
+    ul {
+        display: flex;
+        background-color: transparent;
+        li {
+            padding: 12px;
+            border-radius: 100px;
+            list-style: none;
+            background-color: #171717;
+            border: 1px solid #FFFFFF25;
+            display: flex;
+            align-items: center;
+            a {
+                color: #FFFFFF85;
+                font-size: 16px;
+            }
+            img {
+                margin-right: 6px;
+            }
+        }
+    }
+}
